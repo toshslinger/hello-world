@@ -15,6 +15,9 @@ color: blue;
 .column3  {
   background-color: lightgreen;
 }
+.nav {
+  display: block;
+}
 .links-list a {
   display: inline-block;
   background-color: red;
