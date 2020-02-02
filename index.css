@@ -8,12 +8,15 @@ color: blue;
 }
 .column1 {
   background-color: orange;
+  width: 25%;
 }
 .column2  {
   background-color: aqua;
+  width: 25%;
 }
 .column3  {
   background-color: lightgreen;
+  width: 25%;
 }
 .nav {
   display: block;
