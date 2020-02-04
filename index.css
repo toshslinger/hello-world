@@ -25,6 +25,7 @@ color: blue;
 }
 .links-list a {
   display: inline-block;
+  list-style: none;
   background-color: brown;
   color: #fff;
   text-decoration: none;
