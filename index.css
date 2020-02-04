@@ -23,9 +23,11 @@ color: blue;
 .nav {
   display: block;
 }
+ul {
+  list-style: none;
+}
 .links-list a {
   display: inline-block;
-  list-style: none;
   background-color: brown;
   color: #fff;
   text-decoration: none;
