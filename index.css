@@ -28,6 +28,7 @@ ul {
 }
 .links-list a {
   display: inline-block;
+  margin-right: 0.625%;
   background-color: brown;
   color: #fff;
   text-decoration: none;
