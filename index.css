@@ -18,7 +18,7 @@ color: blue;
 .column3  {
   background-color: lightgreen;
   width: 25%;
-  float: right;
+  float: inline-end;
 }
 .nav {
   display: block;
