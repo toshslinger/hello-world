@@ -9,7 +9,7 @@ color: blue;
 .column1 {
   background-color: orange;
   width: 25%;
-  float: inline-start;
+  float: left;
 }
 .column2  {
   background-color: aqua;
@@ -18,7 +18,7 @@ color: blue;
 .column3  {
   background-color: lightgreen;
   width: 25%;
-  float: inline-end;
+  float: right;
 }
 .nav {
   display: block;
