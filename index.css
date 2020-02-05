@@ -30,11 +30,19 @@ ul {
   display: inline-block;
   margin-right: 0.625%;
   background-color: brown;
+  border-bottom: 1px solid black;
   color: #fff;
   text-decoration: none;
   padding: 1em 2em;
 }
+.links-list a:focus {
+  background: blue
+  border-bottom: 1px solid white;
+}
 .links-list a:hover {
   background-color: rgb(66, 28, 40);
   color: #fff;
+}
+.links-list a:active {
+  background: yellow;
 }
