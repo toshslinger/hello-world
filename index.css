@@ -15,15 +15,21 @@ color: blue;
 }
 .column1 {
   background-color: orange;
+  border: 2px solid grey;
+  border-radius: 5px;
   width: 25%;
   float: left;
 }
 .column2  {
   background-color: aqua;
+  border: 2px solid grey;
+  border-radius: 5px;
   width: 25%;
 }
 .column3  {
   background-color: lightgreen;
+  border: 2px solid grey;
+  border-radius: 5px;
   width: 25%;
   float: inline-end;
 }
