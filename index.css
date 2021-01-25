@@ -1,64 +1,62 @@
 
 body {
-	font: 15px Courier, serif;
-    background-color: ivory;
-    padding: 2%;
-}
-h3  {
-color: red;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  font: .9em/1.2 Arial, Helvetica, sans-serif;
 }
 
-p {
-	 
+h1 {
+color: blue;
 }
-
-p.down {
-	font: 18px Courier, serif;
-	color: tomato;
+.header {
+  background-color: pink;
+  padding: 50px;
+  text-align: center;
 }
-.unit {
-	display: block;
-	float: left;
-	border: 1px solid red;
+.column1 {
+  background-color: orange;
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: 25%;
+  float: left;
 }
-.box {
-text-align: center;
-display: flex;
-padding-right: 20px;
-border: 1px solid black;
-
+.column2  {
+  background-color: aqua;
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: 25%;
 }
-.box2 {
-float: left;
-clear: left;
-padding-right: 20px;
-border: 1px solid black;
+.column3  {
+  background-color: lightgreen;
+  border: 2px solid grey;
+  border-radius: 5px;
+  width: 25%;
+  float: inline-end;
 }
-
-.describe {
-
-
-text-align: center;
-border: 1px solid green;
-
-
+.nav {
+  display: block;
 }
-
-div.container {
-	display: auto;
-	text-align: center;
-padding-right: 20px;
-border: 1px solid blue;
- 
+ul {
+  list-style: none;
 }
-
-figure.pic {
-	max-width: 100%;
-	text-align: center;
-	font-style: italic;
+.links-list a {
+  display: inline-block;
+  margin-right: 0.625%;
+  background-color: brown;
+  border-bottom: 1px solid black;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
 }
-
-.vid {
-
-	float: right;
+.links-list a:focus {
+  background: blue
+  border-bottom: 1px solid white;
+}
+.links-list a:hover {
+  background-color: rgb(66, 28, 40);
+  color: #fff;
+}
+.links-list a:active {
+  background: yellow;
 }
